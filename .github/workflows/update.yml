@@ -1,0 +1,66 @@
+# 每次运行会抓取 GitHub Trending、提交数据并部署到 GitHub Pages。
+# 首次使用请在仓库 Settings → Pages 中把 Source 设为 “GitHub Actions”。
+name: 更新 GitHub 热榜
+
+on:
+  schedule:
+    # 每天 UTC 00:00 运行，即北京时间 08:00
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  update-and-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 安装 Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: 抓取 GitHub Trending
+        run: node scripts/fetch-trending.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 提交榜单数据
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/trending.json data/trending.js
+          if git diff --cached --quiet; then
+            echo "榜单数据无变化，跳过提交"
+          else
+            git commit -m "chore: 更新 GitHub 热榜 $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+      - name: 配置 Pages
+        uses: actions/configure-pages@v5
+
+      - name: 上传站点文件
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      - name: 部署到 GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

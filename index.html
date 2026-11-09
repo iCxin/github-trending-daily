@@ -5,12 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="dark">
   <meta name="theme-color" content="#070b12">
-  <title>GitHub 热榜 · 每日 Trending</title>
-  <meta name="description" content="每天自动抓取 GitHub Trending，按总榜与编程语言展示最热门的开源项目。">
+  <title>GitHub 热榜 · 每日开源趋势日报</title>
+  <meta name="description" content="每天自动更新、可回溯、可检索、可订阅的 GitHub Trending 趋势日报，支持语言榜、日周月时间窗与趋势标识。">
+  <link rel="alternate" type="application/rss+xml" title="GitHub 热榜 · 每日总榜" href="feed.xml">
   <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20100%20100'%3E%3Ctext%20y='.9em'%20font-size='90'%3E%E2%AD%90%3C/text%3E%3C/svg%3E">
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
+  <a class="skip-link" href="#main">跳到主要内容</a>
+
+  <noscript>
+    <div class="page">
+      <div class="noscript">
+        <h2>需要启用 JavaScript</h2>
+        <p>榜单交互依赖浏览器脚本。你也可以直接查看 <a href="data/trending.json">原始数据</a> 或订阅 <a href="feed.xml">RSS</a>。</p>
+      </div>
+    </div>
+  </noscript>
+
   <div class="page">
     <header class="site-header">
       <div class="brand">
@@ -21,74 +33,145 @@
         </span>
         <div class="brand-text">
           <h1>GitHub 热榜</h1>
-          <p class="tagline">每天自动抓取 GitHub Trending，发现正在走红的开源项目</p>
+          <p class="tagline">每天一次的开源趋势日报：可追溯、可检索、可订阅</p>
         </div>
       </div>
       <div class="update-badge" id="updateBadge">
-        <span class="badge-dot"></span>
+        <span class="badge-dot" id="badgeDot" aria-hidden="true"></span>
         <span id="updateText">正在加载数据…</span>
+        <button class="badge-refresh" id="reloadBtn" type="button" title="重新加载" aria-label="重新加载页面">↻</button>
       </div>
     </header>
 
-    <div class="notice" id="notice" hidden></div>
+    <div class="notice" id="notice" role="status" hidden></div>
 
-    <nav class="tabs" id="tabs" aria-label="榜单分类"></nav>
+    <main id="main">
+      <div class="controls">
+        <div class="tabs-row">
+          <div class="tabs" id="tabs" role="tablist" aria-label="榜单分类"></div>
+          <div class="seg" id="sinceSeg" role="group" aria-label="时间窗"></div>
+        </div>
 
-    <section class="board" aria-labelledby="boardTitle">
-      <div class="board-head">
-        <h2 class="board-title" id="boardTitle">今日热门总榜</h2>
-        <p class="board-sub" id="boardSub">正在加载榜单数据…</p>
-      </div>
+        <div class="tool-row">
+          <div class="search">
+            <svg viewBox="0 0 16 16" width="15" height="15" aria-hidden="true"><path fill="currentColor" d="M10.68 11.74a6 6 0 0 1-7.922-8.982 6 6 0 0 1 8.982 7.922l3.04 3.04a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215ZM11.5 7a4.5 4.5 0 1 0-9 0 4.5 4.5 0 0 0 9 0Z"/></svg>
+            <label class="sr-only" for="search">搜索项目</label>
+            <input id="search" type="search" placeholder="搜索仓库、简介、主题或语言…" autocomplete="off" maxlength="80" spellcheck="false">
+            <button class="clear" id="clearSearch" type="button" aria-label="清空搜索" hidden>×</button>
+            <kbd class="search-kbd" aria-hidden="true">/</kbd>
+          </div>
 
-      <div class="list" id="list" aria-live="polite">
-        <div class="repo skeleton" aria-hidden="true">
-          <span class="rank"></span>
-          <div class="repo-body">
-            <div class="sk-line sk-title"></div>
-            <div class="sk-line sk-desc"></div>
-            <div class="sk-line sk-meta"></div>
-          </div>
+          <label class="select">排序
+            <select id="sort">
+              <option value="rank">榜单排名</option>
+              <option value="growth">新增 Star</option>
+              <option value="stars">总 Star</option>
+            </select>
+          </label>
+
+          <button class="action-btn" id="shareBtn" type="button">分享视图</button>
+          <a class="action-btn" id="rssLink" href="feed.xml" title="订阅每日总榜 RSS">RSS</a>
         </div>
-        <div class="repo skeleton" aria-hidden="true">
-          <span class="rank"></span>
-          <div class="repo-body">
-            <div class="sk-line sk-title"></div>
-            <div class="sk-line sk-desc"></div>
-            <div class="sk-line sk-meta"></div>
-          </div>
+
+        <div class="filters">
+          <div class="chips" id="trendChips" role="group" aria-label="趋势筛选"></div>
+          <label class="select lang-filter" id="langWrap" hidden>语言
+            <select id="langFilter"></select>
+          </label>
+          <p class="count" id="resultCount" role="status" aria-live="polite">正在加载…</p>
         </div>
-        <div class="repo skeleton" aria-hidden="true">
-          <span class="rank"></span>
-          <div class="repo-body">
-            <div class="sk-line sk-title"></div>
-            <div class="sk-line sk-desc"></div>
-            <div class="sk-line sk-meta"></div>
-          </div>
-        </div>
-        <div class="repo skeleton" aria-hidden="true">
-          <span class="rank"></span>
-          <div class="repo-body">
-            <div class="sk-line sk-title"></div>
-            <div class="sk-line sk-desc"></div>
-            <div class="sk-line sk-meta"></div>
-          </div>
-        </div>
-        <div class="repo skeleton" aria-hidden="true">
-          <span class="rank"></span>
-          <div class="repo-body">
-            <div class="sk-line sk-title"></div>
-            <div class="sk-line sk-desc"></div>
-            <div class="sk-line sk-meta"></div>
+
+        <div class="share-panel" id="sharePanel" hidden>
+          <label for="shareUrl">链接</label>
+          <div class="share-row">
+            <input id="shareUrl" type="text" readonly>
+            <button class="action-btn primary" id="copyShare" type="button">复制</button>
+            <button class="icon-btn" id="closeShare" type="button" aria-label="关闭分享框">×</button>
           </div>
         </div>
       </div>
-    </section>
+
+      <section class="board" id="boardPanel" role="tabpanel" aria-labelledby="tab-all" tabindex="-1">
+        <div class="board-head">
+          <div>
+            <h2 id="boardTitle">正在加载榜单</h2>
+            <p class="board-sub" id="boardMeta">请稍候…</p>
+          </div>
+          <span class="board-flag" id="boardFlag" hidden></span>
+        </div>
+
+        <div class="inline-banner" id="boardBanner" hidden></div>
+
+        <div class="list" id="list">
+          <div class="repo skeleton" aria-hidden="true">
+            <span class="rank"></span>
+            <div class="repo-main">
+              <div class="sk-line sk-title"></div>
+              <div class="sk-line sk-desc"></div>
+              <div class="sk-line sk-meta"></div>
+            </div>
+          </div>
+          <div class="repo skeleton" aria-hidden="true">
+            <span class="rank"></span>
+            <div class="repo-main">
+              <div class="sk-line sk-title"></div>
+              <div class="sk-line sk-desc"></div>
+              <div class="sk-line sk-meta"></div>
+            </div>
+          </div>
+          <div class="repo skeleton" aria-hidden="true">
+            <span class="rank"></span>
+            <div class="repo-main">
+              <div class="sk-line sk-title"></div>
+              <div class="sk-line sk-desc"></div>
+              <div class="sk-line sk-meta"></div>
+            </div>
+          </div>
+          <div class="repo skeleton" aria-hidden="true">
+            <span class="rank"></span>
+            <div class="repo-main">
+              <div class="sk-line sk-title"></div>
+              <div class="sk-line sk-desc"></div>
+              <div class="sk-line sk-meta"></div>
+            </div>
+          </div>
+          <div class="repo skeleton" aria-hidden="true">
+            <span class="rank"></span>
+            <div class="repo-main">
+              <div class="sk-line sk-title"></div>
+              <div class="sk-line sk-desc"></div>
+              <div class="sk-line sk-meta"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="empty" id="empty" hidden>
+          <div class="empty-icon" aria-hidden="true">◎</div>
+          <h2 id="emptyTitle">没有符合条件的项目</h2>
+          <p id="emptyText">尝试调整搜索词或筛选条件。</p>
+          <div class="empty-actions">
+            <button class="action-btn primary" id="resetFilters" type="button">清除筛选</button>
+            <a class="text-btn" href="https://github.com/trending" target="_blank" rel="noopener noreferrer">查看数据源</a>
+          </div>
+        </div>
+      </section>
+    </main>
 
     <footer class="site-footer">
-      <span>数据来源：<a href="https://github.com/trending" target="_blank" rel="noopener noreferrer">github.com/trending</a></span>
-      <span>由 GitHub Actions 每天 08:00（北京时间）自动更新</span>
+      <div class="foot-line">
+        <span>数据来源：<a href="https://github.com/trending" target="_blank" rel="noopener noreferrer">github.com/trending</a></span>
+        <span>由 GitHub Actions 定时更新</span>
+      </div>
+      <div class="foot-line">
+        <a href="data/trending.json">最新快照</a>
+        <a href="data/history/index.json">历史索引</a>
+        <a href="feed.xml">RSS 订阅</a>
+        <span>不收集访客信息，无第三方统计</span>
+      </div>
     </footer>
   </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
   <script src="data/trending.js" defer></script>
   <script src="assets/app.js" defer></script>

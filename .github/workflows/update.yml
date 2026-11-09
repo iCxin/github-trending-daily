@@ -7,14 +7,31 @@ on:
     # 每天 UTC 00:00 运行，即北京时间 08:00
     - cron: "0 0 * * *"
   workflow_dispatch:
+    inputs:
+      windows:
+        description: 时间窗（all / daily,weekly,monthly）
+        type: string
+        default: all
+      boards:
+        description: 榜单范围（* 表示全部；也可写 all,python,go）
+        type: string
+        default: "*"
+      dry_run:
+        description: 仅校验不发布
+        type: boolean
+        default: false
   push:
     branches:
       - main
+    paths-ignore:
+      - "data/**"
+      - "feed.xml"
 
 permissions:
   contents: write
   pages: write
   id-token: write
+  issues: write
 
 concurrency:
   group: github-pages
@@ -23,7 +40,7 @@ concurrency:
 jobs:
   update-and-deploy:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 30
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -36,31 +53,108 @@ jobs:
         with:
           node-version: 20
 
-      - name: 抓取 GitHub Trending
-        run: node scripts/fetch-trending.mjs
+      - name: 计算站点地址
+        id: site
+        run: |
+          owner=$(echo "${GITHUB_REPOSITORY_OWNER}" | tr '[:upper:]' '[:lower:]')
+          repo=$(echo "${GITHUB_REPOSITORY#*/}" | tr '[:upper:]' '[:lower:]')
+          echo "url=https://${owner}.github.io/${repo}/" >> "$GITHUB_OUTPUT"
+
+      - name: 抓取并校验 GitHub Trending
+        id: fetch
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SITE_URL: ${{ steps.site.outputs.url }}
+          SNAPSHOT_RETENTION_DAYS: 30
+          UPDATE_CYCLE_HOURS: 24
+          DETAIL_LIMIT: 60
+          RELEASE_LIMIT: 12
+          INPUT_WINDOWS: ${{ inputs.windows }}
+          INPUT_BOARDS: ${{ inputs.boards }}
+          INPUT_DRY_RUN: ${{ inputs.dry_run }}
+        run: |
+          set -o pipefail
+          args=()
+          if [ -n "$INPUT_WINDOWS" ]; then
+            args+=("--windows=$INPUT_WINDOWS")
+          fi
+          if [ -n "$INPUT_BOARDS" ]; then
+            args+=("--boards=$INPUT_BOARDS")
+          fi
+          if [ "$INPUT_DRY_RUN" = "true" ]; then
+            args+=("--dry-run")
+          fi
+          node scripts/fetch-trending.mjs "${args[@]}"
 
-      - name: 提交榜单数据
+      - name: 提交榜单快照
+        if: ${{ github.event_name != 'workflow_dispatch' || inputs.dry_run != true }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/trending.json data/trending.js
+          git add data/trending.json data/trending.js data/history feed.xml data/run-report.json
           if git diff --cached --quiet; then
-            echo "榜单数据无变化，跳过提交"
+            echo "榜单快照无变化，跳过提交"
           else
             git commit -m "chore: 更新 GitHub 热榜 $(date -u +%Y-%m-%d)"
             git push
           fi
 
       - name: 配置 Pages
+        if: ${{ github.event_name != 'workflow_dispatch' || inputs.dry_run != true }}
         uses: actions/configure-pages@v5
 
       - name: 上传站点文件
+        if: ${{ github.event_name != 'workflow_dispatch' || inputs.dry_run != true }}
         uses: actions/upload-pages-artifact@v3
         with:
           path: .
 
       - name: 部署到 GitHub Pages
+        if: ${{ github.event_name != 'workflow_dispatch' || inputs.dry_run != true }}
         id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: 数据质量告警
+        if: always() && (github.event_name != 'workflow_dispatch' || inputs.dry_run != true)
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          set -u
+          TITLE="[数据告警] GitHub 热榜数据不完整"
+          LABEL="data-alert"
+
+          gh label create "$LABEL" --color B60205 --description "自动数据质量告警" --force >/dev/null 2>&1 || true
+
+          degraded="false"
+          fatal="false"
+          body=""
+          if [ -f data/run-report.json ]; then
+            degraded=$(jq -r '.degraded // false' data/run-report.json)
+            fatal=$(jq -r '.fatal // false' data/run-report.json)
+            table=$(jq -r '.results[]? | "| \(.board) | \(.window) | \(.status) | \(.count) | \(.reason // "-") |"' data/run-report.json)
+            failures=$(jq -r '.failures[]? | "- \(.)"' data/run-report.json)
+            if [ -n "$failures" ]; then
+              body=$(printf '本次运行发现以下问题：\n\n%s\n\n| 榜单 | 时间窗 | 状态 | 条目 | 说明 |\n| --- | --- | --- | --- | --- |\n%s\n\n运行记录：%s\n' "$failures" "$table" "$RUN_URL")
+            else
+              body=$(printf '本次运行结果异常，但未记录具体失败项。\n\n| 榜单 | 时间窗 | 状态 | 条目 | 说明 |\n| --- | --- | --- | --- | --- |\n%s\n\n运行记录：%s\n' "$table" "$RUN_URL")
+            fi
+          else
+            degraded="true"
+            body=$(printf '抓取步骤未产出运行报告，请检查工作流日志。\n\n运行记录：%s\n' "$RUN_URL")
+          fi
+
+          open_number=$(gh issue list --label "$LABEL" --state open --json number --jq '.[0].number // empty')
+
+          if [ "$degraded" = "true" ] || [ "$fatal" = "true" ]; then
+            if [ -n "$open_number" ]; then
+              gh issue comment "$open_number" --body "$body"
+            else
+              gh issue create --title "$TITLE" --label "$LABEL" --body "$body"
+            fi
+          else
+            for number in $(gh issue list --label "$LABEL" --state open --json number --jq '.[].number'); do
+              gh issue close "$number" --comment "数据已恢复完整更新，自动关闭。"
+            done
+          fi

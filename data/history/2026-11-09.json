@@ -1,0 +1,772 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-11-09",
+  "generatedAt": "2026-11-09T04:50:15.475Z",
+  "sample": false,
+  "cycleHours": 24,
+  "boards": [
+    {
+      "id": "all",
+      "label": "总榜",
+      "windows": {
+        "daily": {
+          "status": "ok",
+          "source": "html",
+          "generatedAt": "2026-11-09T04:50:15.475Z",
+          "items": [
+            {
+              "rank": 1,
+              "fullName": "sherlock-project/sherlock",
+              "stars": 104414,
+              "growth": 2373,
+              "language": "Python"
+            },
+            {
+              "rank": 2,
+              "fullName": "dsx-ai-factory/nvke",
+              "stars": 917,
+              "growth": 345,
+              "language": "Go"
+            },
+            {
+              "rank": 3,
+              "fullName": "milind-soni/OpenMausBot",
+              "stars": 18605,
+              "growth": 1439,
+              "language": "TypeScript"
+            },
+            {
+              "rank": 4,
+              "fullName": "anthropics/claude-quickstarts",
+              "stars": 19546,
+              "growth": 32,
+              "language": "Python"
+            },
+            {
+              "rank": 5,
+              "fullName": "vercel-labs/agent-browser",
+              "stars": 47813,
+              "growth": 815,
+              "language": "Rust"
+            },
+            {
+              "rank": 6,
+              "fullName": "meta/astryx",
+              "stars": 17370,
+              "growth": 875,
+              "language": "TypeScript"
+            },
+            {
+              "rank": 7,
+              "fullName": "anthropics/skills",
+              "stars": 189841,
+              "growth": 792,
+              "language": "Python"
+            },
+            {
+              "rank": 8,
+              "fullName": "google-deepmind/mujoco",
+              "stars": 16530,
+              "growth": 41,
+              "language": "C++"
+            },
+            {
+              "rank": 9,
+              "fullName": "ranxianglei/billion-context",
+              "stars": 5318,
+              "growth": 460,
+              "language": "TypeScript"
+            }
+          ]
+        },
+        "weekly": {
+          "status": "empty",
+          "source": null,
+          "generatedAt": "2026-11-09T04:50:15.475Z",
+          "items": []
+        },
+        "monthly": {
+          "status": "empty",
+          "source": null,
+          "generatedAt": "2026-11-09T04:50:15.475Z",
+          "items": []
+        }
+      }
+    },
+    {
+      "id": "python",
+      "label": "Python",
+      "windows": {
+        "daily": {
+          "status": "ok",
+          "source": "html",
+          "generatedAt": "2026-11-09T04:50:15.475Z",
+          "items": [
+            {
+              "rank": 1,
+              "fullName": "sherlock-project/sherlock",
+              "stars": 104415,
+              "growth": 2373,
+              "language": "Python"
+            },
+            {
+              "rank": 2,
+              "fullName": "anthropics/claude-quickstarts",
+              "stars": 19546,
+              "growth": 32,
+              "language": "Python"
+            },
+            {
+              "rank": 3,
+              "fullName": "anthropics/skills",
+              "stars": 189841,
+              "growth": 792,
+              "language": "Python"
+            },
+            {
+              "rank": 4,
+              "fullName": "jamiepine/voicebox",
+              "stars": 60183,
+              "growth": 208,
+              "language": "Python"
+            },
+            {
+              "rank": 5,
+              "fullName": "googlecolab/google-colab-cli",
+              "stars": 2093,
+              "growth": 104,
+              "language": "Python"
+            },
+            {
+              "rank": 6,
+              "fullName": "rohitg00/ai-engineering-from-scratch",
+              "stars": 77871,
+              "growth": 449,
+              "language": "Python"
+            },
+            {
+              "rank": 7,
+              "fullName": "neuml/txtai",
+              "stars": 13177,
+              "growth": 56,
+              "language": "Python"
+            },
+            {
+              "rank": 8,
+              "fullName": "bradautomates/claude-video",
+              "stars": 20271,
+              "growth": 92,
+              "language": "Python"
+            },
+            {
+              "rank": 9,
+              "fullName": "BigBodyCobain/Shadowbroker",
+              "stars": 11505,
+              "growth": 16,
+              "language": "Python"
+            },
+            {
+              "rank": 10,
+              "fullName": "XiaoYouChR/Ghost-Downloader-3",
+              "stars": 10880,
+              "growth": 53,
+              "language": "Python"
+            },
+            {
+              "rank": 11,
+              "fullName": "SWE-agent/mini-swe-agent",
+              "stars": 9430,
+              "growth": 86,
+              "language": "Python"
+            }
+          ]
+        },
+        "weekly": {
+          "status": "empty",
+          "source": null,
+          "generatedAt": "2026-11-09T04:50:15.475Z",
+          "items": []
+        },
+        "monthly": {
+          "status": "empty",
+          "source": null,
+          "generatedAt": "2026-11-09T04:50:15.475Z",
+          "items": []
+        }
+      }
+    },
+    {
+      "id": "javascript",
+      "label": "JavaScript",
+      "windows": {
+        "daily": {
+          "status": "ok",
+          "source": "html",
+          "generatedAt": "2026-11-09T04:50:15.475Z",
+          "items": [
+            {
+              "rank": 1,
+              "fullName": "Anil-matcha/Open-Generative-AI",
+              "stars": 33453,
+              "growth": 373,
+              "language": "JavaScript"
+            },
+            {
+              "rank": 2,
+              "fullName": "cloudflare/security-audit-skill",
+              "stars": 67068,
+              "growth": 1376,
+              "language": "JavaScript"
+            },
+            {
+              "rank": 3,
+              "fullName": "4ian/GDevelop",
+              "stars": 28627,
+              "growth": 53,
+              "language": "JavaScript"
+            },
+            {
+              "rank": 4,
+              "fullName": "hmjz100/LinkSwift",
+              "stars": 38897,
+              "growth": 334,
+              "language": "JavaScript"
+            }
+          ]
+        },
+        "weekly": {
+          "status": "empty",
+          "source": null,
+          "generatedAt": "2026-11-09T04:50:15.475Z",
+          "items": []
+        },
+        "monthly": {
+          "status": "empty",
+          "source": null,
+          "generatedAt": "2026-11-09T04:50:15.475Z",
+          "items": []
+        }
+      }
+    },
+    {
+      "id": "typescript",
+      "label": "TypeScript",
+      "windows": {
+        "daily": {
+          "status": "ok",
+          "source": "html",
+          "generatedAt": "2026-11-09T04:50:15.475Z",
+          "items": [
+            {
+              "rank": 1,
+              "fullName": "milind-soni/OpenMausBot",
+              "stars": 18605,
+              "growth": 1439,
+              "language": "TypeScript"
+            },
+            {
+              "rank": 2,
+              "fullName": "meta/astryx",
+              "stars": 17371,
+              "growth": 875,
+              "language": "TypeScript"
+            },
+            {
+              "rank": 3,
+              "fullName": "ranxianglei/billion-context",
+              "stars": 5318,
+              "growth": 460,
+              "language": "TypeScript"
+            },
+            {
+              "rank": 4,
+              "fullName": "Albert-Weasker/niubigeo",
+              "stars": 10148,
+              "growth": 228,
+              "language": "TypeScript"
+            },
+            {
+              "rank": 5,
+              "fullName": "kortix-ai/CompanyOS",
+              "stars": 20583,
+              "growth": 72,
+              "language": "TypeScript"
+            },
+            {
+              "rank": 6,
+              "fullName": "tailwindlabs/tailwindcss",
+              "stars": 98649,
+              "growth": 332,
+              "language": "TypeScript"
+            },
+            {
+              "rank": 7,
+              "fullName": "elie222/rakazo",
+              "stars": 7590,
+              "growth": 107,
+              "language": "TypeScript"
+            },
+            {
+              "rank": 8,
+              "fullName": "ParadevAI/Paradev",
+              "stars": 16115,
+              "growth": 39,
+              "language": "TypeScript"
+            },
+            {
+              "rank": 9,
+              "fullName": "mantrakp04/ardia",
+              "stars": 1493,
+              "growth": 85,
+              "language": "TypeScript"
+            },
+            {
+              "rank": 10,
+              "fullName": "snarktank/ralph",
+              "stars": 22175,
+              "growth": 18,
+              "language": "TypeScript"
+            },
+            {
+              "rank": 11,
+              "fullName": "vercel-labs/json-render",
+              "stars": 19465,
+              "growth": 149,
+              "language": "TypeScript"
+            },
+            {
+              "rank": 12,
+              "fullName": "lobehub/lobehub",
+              "stars": 84460,
+              "growth": 95,
+              "language": "TypeScript"
+            },
+            {
+              "rank": 13,
+              "fullName": "poco-ai/Agentero",
+              "stars": 2088,
+              "growth": 145,
+              "language": "TypeScript"
+            },
+            {
+              "rank": 14,
+              "fullName": "Open-Dev-Society/OpenStock",
+              "stars": 21368,
+              "growth": 66,
+              "language": "TypeScript"
+            },
+            {
+              "rank": 15,
+              "fullName": "arcsin1/oh-my-ppt",
+              "stars": 2470,
+              "growth": 51,
+              "language": "TypeScript"
+            },
+            {
+              "rank": 16,
+              "fullName": "humanlayer/12-factor-agents",
+              "stars": 27051,
+              "growth": 19,
+              "language": "TypeScript"
+            }
+          ]
+        },
+        "weekly": {
+          "status": "empty",
+          "source": null,
+          "generatedAt": "2026-11-09T04:50:15.475Z",
+          "items": []
+        },
+        "monthly": {
+          "status": "empty",
+          "source": null,
+          "generatedAt": "2026-11-09T04:50:15.475Z",
+          "items": []
+        }
+      }
+    },
+    {
+      "id": "go",
+      "label": "Go",
+      "windows": {
+        "daily": {
+          "status": "ok",
+          "source": "html",
+          "generatedAt": "2026-11-09T04:50:15.475Z",
+          "items": [
+            {
+              "rank": 1,
+              "fullName": "dsx-ai-factory/nvke",
+              "stars": 917,
+              "growth": 345,
+              "language": "Go"
+            },
+            {
+              "rank": 2,
+              "fullName": "henrygd/beszel",
+              "stars": 27011,
+              "growth": 104,
+              "language": "Go"
+            },
+            {
+              "rank": 3,
+              "fullName": "prometheus/prometheus",
+              "stars": 67574,
+              "growth": 213,
+              "language": "Go"
+            },
+            {
+              "rank": 4,
+              "fullName": "Christ9038/Ydisks-Xianyu-Helper",
+              "stars": 2339,
+              "growth": 17,
+              "language": "Go"
+            },
+            {
+              "rank": 5,
+              "fullName": "XTLS/Xray-core",
+              "stars": 42739,
+              "growth": 41,
+              "language": "Go"
+            },
+            {
+              "rank": 6,
+              "fullName": "vxcontrol/pentagi",
+              "stars": 33728,
+              "growth": 97,
+              "language": "Go"
+            },
+            {
+              "rank": 7,
+              "fullName": "kgretzky/evilginx2",
+              "stars": 15872,
+              "growth": 25,
+              "language": "Go"
+            },
+            {
+              "rank": 8,
+              "fullName": "woodpecker-ci/woodpecker",
+              "stars": 8141,
+              "growth": 5,
+              "language": "Go"
+            },
+            {
+              "rank": 9,
+              "fullName": "Gaurav-Gosain/tuios",
+              "stars": 6455,
+              "growth": 26,
+              "language": "Go"
+            },
+            {
+              "rank": 10,
+              "fullName": "google/gvisor",
+              "stars": 19926,
+              "growth": 15,
+              "language": "Go"
+            },
+            {
+              "rank": 11,
+              "fullName": "glanceapp/glance",
+              "stars": 38100,
+              "growth": 29,
+              "language": "Go"
+            },
+            {
+              "rank": 12,
+              "fullName": "AlistGo/alist",
+              "stars": 50431,
+              "growth": 11,
+              "language": "Go"
+            },
+            {
+              "rank": 13,
+              "fullName": "navidrome/navidrome",
+              "stars": 24599,
+              "growth": 19,
+              "language": "Go"
+            },
+            {
+              "rank": 14,
+              "fullName": "TwiN/gatus",
+              "stars": 12651,
+              "growth": 100,
+              "language": "Go"
+            },
+            {
+              "rank": 15,
+              "fullName": "kdlbs/kandev",
+              "stars": 1095,
+              "growth": 9,
+              "language": "Go"
+            },
+            {
+              "rank": 16,
+              "fullName": "MHSanaei/3x-ui",
+              "stars": 49563,
+              "growth": 72,
+              "language": "Go"
+            },
+            {
+              "rank": 17,
+              "fullName": "agent-substrate/substrate",
+              "stars": 6242,
+              "growth": 26,
+              "language": "Go"
+            },
+            {
+              "rank": 18,
+              "fullName": "VictoriaMetrics/VictoriaMetrics",
+              "stars": 18061,
+              "growth": 15,
+              "language": "Go"
+            }
+          ]
+        },
+        "weekly": {
+          "status": "empty",
+          "source": null,
+          "generatedAt": "2026-11-09T04:50:15.475Z",
+          "items": []
+        },
+        "monthly": {
+          "status": "empty",
+          "source": null,
+          "generatedAt": "2026-11-09T04:50:15.475Z",
+          "items": []
+        }
+      }
+    },
+    {
+      "id": "rust",
+      "label": "Rust",
+      "windows": {
+        "daily": {
+          "status": "ok",
+          "source": "html",
+          "generatedAt": "2026-11-09T04:50:15.475Z",
+          "items": [
+            {
+              "rank": 1,
+              "fullName": "vercel-labs/agent-browser",
+              "stars": 47813,
+              "growth": 815,
+              "language": "Rust"
+            },
+            {
+              "rank": 2,
+              "fullName": "storytold/artcraft",
+              "stars": 39973,
+              "growth": 335,
+              "language": "Rust"
+            },
+            {
+              "rank": 3,
+              "fullName": "zed-industries/zed",
+              "stars": 94505,
+              "growth": 350,
+              "language": "Rust"
+            },
+            {
+              "rank": 4,
+              "fullName": "GCWing/OpenBitFun",
+              "stars": 3979,
+              "growth": 32,
+              "language": "Rust"
+            },
+            {
+              "rank": 5,
+              "fullName": "jub0t/Concat",
+              "stars": 15863,
+              "growth": 488,
+              "language": "Rust"
+            },
+            {
+              "rank": 6,
+              "fullName": "ZSeven-W/openpencil",
+              "stars": 7160,
+              "growth": 28,
+              "language": "Rust"
+            },
+            {
+              "rank": 7,
+              "fullName": "wealthfolio/wealthfolio",
+              "stars": 9392,
+              "growth": 19,
+              "language": "Rust"
+            },
+            {
+              "rank": 8,
+              "fullName": "ruvnet/RuView",
+              "stars": 103107,
+              "growth": 203,
+              "language": "Rust"
+            },
+            {
+              "rank": 9,
+              "fullName": "herdrdev/herdr",
+              "stars": 49506,
+              "growth": 345,
+              "language": "Rust"
+            },
+            {
+              "rank": 10,
+              "fullName": "astral-sh/ruff",
+              "stars": 51121,
+              "growth": 245,
+              "language": "Rust"
+            },
+            {
+              "rank": 11,
+              "fullName": "GyulyVGC/sniffnet",
+              "stars": 42112,
+              "growth": 80,
+              "language": "Rust"
+            },
+            {
+              "rank": 12,
+              "fullName": "CapSoftware/Cap",
+              "stars": 24688,
+              "growth": 63,
+              "language": "Rust"
+            }
+          ]
+        },
+        "weekly": {
+          "status": "empty",
+          "source": null,
+          "generatedAt": "2026-11-09T04:50:15.475Z",
+          "items": []
+        },
+        "monthly": {
+          "status": "empty",
+          "source": null,
+          "generatedAt": "2026-11-09T04:50:15.475Z",
+          "items": []
+        }
+      }
+    },
+    {
+      "id": "java",
+      "label": "Java",
+      "windows": {
+        "daily": {
+          "status": "ok",
+          "source": "html",
+          "generatedAt": "2026-11-09T04:50:15.475Z",
+          "items": [
+            {
+              "rank": 1,
+              "fullName": "MewX/light-novel-library_Wenku8_Android",
+              "stars": 3430,
+              "growth": 17,
+              "language": "Java"
+            },
+            {
+              "rank": 2,
+              "fullName": "termux/termux-app",
+              "stars": 64442,
+              "growth": 74,
+              "language": "Java"
+            },
+            {
+              "rank": 3,
+              "fullName": "TeamNewPipe/NewPipe",
+              "stars": 40530,
+              "growth": 32,
+              "language": "Java"
+            },
+            {
+              "rank": 4,
+              "fullName": "LaurieWired/GhidraMCP",
+              "stars": 11848,
+              "growth": 22,
+              "language": "Java"
+            },
+            {
+              "rank": 5,
+              "fullName": "MeteorDevelopment/meteor-client",
+              "stars": 4004,
+              "growth": 6,
+              "language": "Java"
+            },
+            {
+              "rank": 6,
+              "fullName": "MuntashirAkon/AppManager",
+              "stars": 9514,
+              "growth": 12,
+              "language": "Java"
+            },
+            {
+              "rank": 7,
+              "fullName": "FCL-Team/FoldCraftLauncher",
+              "stars": 5161,
+              "growth": 6,
+              "language": "Java"
+            },
+            {
+              "rank": 8,
+              "fullName": "termux/termux-x11",
+              "stars": 5103,
+              "growth": 5,
+              "language": "Java"
+            },
+            {
+              "rank": 9,
+              "fullName": "yuliskov/SmartTube",
+              "stars": 36116,
+              "growth": 50,
+              "language": "Java"
+            },
+            {
+              "rank": 10,
+              "fullName": "ddd-by-examples/library",
+              "stars": 5996,
+              "growth": 4,
+              "language": "Java"
+            },
+            {
+              "rank": 11,
+              "fullName": "PojavLauncherTeam/PojavLauncher",
+              "stars": 9506,
+              "growth": 8,
+              "language": "Java"
+            },
+            {
+              "rank": 12,
+              "fullName": "AndroidIDEOfficial/AndroidIDE",
+              "stars": 3360,
+              "growth": 0,
+              "language": "Java"
+            },
+            {
+              "rank": 13,
+              "fullName": "RikkaApps/Shizuku-API",
+              "stars": 2764,
+              "growth": 7,
+              "language": "Java"
+            },
+            {
+              "rank": 14,
+              "fullName": "DrKLO/Telegram",
+              "stars": 30250,
+              "growth": 10,
+              "language": "Java"
+            }
+          ]
+        },
+        "weekly": {
+          "status": "empty",
+          "source": null,
+          "generatedAt": "2026-11-09T04:50:15.475Z",
+          "items": []
+        },
+        "monthly": {
+          "status": "empty",
+          "source": null,
+          "generatedAt": "2026-11-09T04:50:15.475Z",
+          "items": []
+        }
+      }
+    }
+  ]
+}

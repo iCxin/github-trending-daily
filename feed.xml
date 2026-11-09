@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GitHub 热榜 · 每日开源趋势日报</title>
+    <link>https://icxin.github.io/github-trending-daily/</link>
+    <atom:link href="https://icxin.github.io/github-trending-daily/feed.xml" rel="self" type="application/rss+xml"/>
+    <description>每天自动更新的 GitHub Trending 总榜，含排名、语言与新增 Star。</description>
+    <language>zh-CN</language>
+    <lastBuildDate>Mon, 09 Nov 2026 04:50:15 GMT</lastBuildDate>
+    <pubDate>Mon, 09 Nov 2026 04:50:15 GMT</pubDate>
+    <generator>github-trending-daily 2</generator>
+    <item>
+      <title>sherlock-project/sherlock</title>
+      <link>https://github.com/sherlock-project/sherlock</link>
+      <guid isPermaLink="false">github-trending:2026-11-09:sherlock-project/sherlock</guid>
+      <description>Hunt down social media accounts by username across social networks — 语言：Python；今日新增 Star：2373</description>
+      <pubDate>Mon, 09 Nov 2026 04:50:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>dsx-ai-factory/nvke</title>
+      <link>https://github.com/dsx-ai-factory/nvke</link>
+      <guid isPermaLink="false">github-trending:2026-11-09:dsx-ai-factory/nvke</guid>
+      <description>NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal. — 语言：Go；今日新增 Star：345</description>
+      <pubDate>Mon, 09 Nov 2026 04:50:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>milind-soni/OpenMausBot</title>
+      <link>https://github.com/milind-soni/OpenMausBot</link>
+      <guid isPermaLink="false">github-trending:2026-11-09:milind-soni/OpenMausBot</guid>
+      <description>Open-source Grok Bot alternative with a virtual machine that bots can use — 语言：TypeScript；今日新增 Star：1439</description>
+      <pubDate>Mon, 09 Nov 2026 04:50:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>anthropics/claude-quickstarts</title>
+      <link>https://github.com/anthropics/claude-quickstarts</link>
+      <guid isPermaLink="false">github-trending:2026-11-09:anthropics/claude-quickstarts</guid>
+      <description>A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API — 语言：Python；今日新增 Star：32</description>
+      <pubDate>Mon, 09 Nov 2026 04:50:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>vercel-labs/agent-browser</title>
+      <link>https://github.com/vercel-labs/agent-browser</link>
+      <guid isPermaLink="false">github-trending:2026-11-09:vercel-labs/agent-browser</guid>
+      <description>Browser automation CLI for AI agents — 语言：Rust；今日新增 Star：815</description>
+      <pubDate>Mon, 09 Nov 2026 04:50:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>meta/astryx</title>
+      <link>https://github.com/meta/astryx</link>
+      <guid isPermaLink="false">github-trending:2026-11-09:meta/astryx</guid>
+      <description>An open source design system that&apos;s fully customizable and agent ready — 语言：TypeScript；今日新增 Star：875</description>
+      <pubDate>Mon, 09 Nov 2026 04:50:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>anthropics/skills</title>
+      <link>https://github.com/anthropics/skills</link>
+      <guid isPermaLink="false">github-trending:2026-11-09:anthropics/skills</guid>
+      <description>Public repository for Agent Skills — 语言：Python；今日新增 Star：792</description>
+      <pubDate>Mon, 09 Nov 2026 04:50:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>google-deepmind/mujoco</title>
+      <link>https://github.com/google-deepmind/mujoco</link>
+      <guid isPermaLink="false">github-trending:2026-11-09:google-deepmind/mujoco</guid>
+      <description>Multi-Joint dynamics with Contact. A general purpose physics simulator. — 语言：C++；今日新增 Star：41</description>
+      <pubDate>Mon, 09 Nov 2026 04:50:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>ranxianglei/billion-context</title>
+      <link>https://github.com/ranxianglei/billion-context</link>
+      <guid isPermaLink="false">github-trending:2026-11-09:ranxianglei/billion-context</guid>
+      <description>A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need — 语言：TypeScript；今日新增 Star：460</description>
+      <pubDate>Mon, 09 Nov 2026 04:50:15 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

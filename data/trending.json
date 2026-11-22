@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T05:46:31.673Z",
+  "generatedAt": "2026-11-22T05:17:37.647Z",
   "since": "daily",
   "source": "https://github.com/trending",
   "boards": [
@@ -17,9 +17,9 @@
           "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
           "language": "Python",
           "languageColor": "#3572A5",
-          "stars": 14617,
-          "forks": 1722,
-          "starsToday": 1622,
+          "stars": 16324,
+          "forks": 1847,
+          "starsToday": 1803,
           "rank": 1
         },
         {
@@ -30,9 +30,9 @@
           "description": "An agentic skills framework & software development methodology that works.",
           "language": "Shell",
           "languageColor": "#89e051",
-          "stars": 322962,
-          "forks": 28675,
-          "starsToday": 890,
+          "stars": 323841,
+          "forks": 28723,
+          "starsToday": 883,
           "rank": 2
         },
         {
@@ -43,9 +43,9 @@
           "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
           "language": "Python",
           "languageColor": "#3572A5",
-          "stars": 61528,
-          "forks": 5582,
-          "starsToday": 773,
+          "stars": 62187,
+          "forks": 5641,
+          "starsToday": 769,
           "rank": 3
         },
         {
@@ -56,9 +56,9 @@
           "description": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
           "language": "Python",
           "languageColor": "#3572A5",
-          "stars": 67790,
-          "forks": 8863,
-          "starsToday": 847,
+          "stars": 68238,
+          "forks": 8922,
+          "starsToday": 488,
           "rank": 4
         },
         {
@@ -69,9 +69,9 @@
           "description": "Cursor plugin specification and official plugins",
           "language": "TypeScript",
           "languageColor": "#3178c6",
-          "stars": 17900,
-          "forks": 1961,
-          "starsToday": 299,
+          "stars": 18157,
+          "forks": 1982,
+          "starsToday": 260,
           "rank": 5
         },
         {
@@ -82,9 +82,9 @@
           "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
           "language": "TypeScript",
           "languageColor": "#3178c6",
-          "stars": 205474,
-          "forks": 10745,
-          "starsToday": 1241,
+          "stars": 206368,
+          "forks": 10790,
+          "starsToday": 1006,
           "rank": 6
         },
         {
@@ -95,9 +95,9 @@
           "description": "The official NGINX Open Source repository.",
           "language": "C",
           "languageColor": "#555555",
-          "stars": 32610,
-          "forks": 8367,
-          "starsToday": 246,
+          "stars": 32767,
+          "forks": 8375,
+          "starsToday": 189,
           "rank": 7
         },
         {
@@ -108,9 +108,9 @@
           "description": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
           "language": "C++",
           "languageColor": "#f34b7d",
-          "stars": 11823,
-          "forks": 3640,
-          "starsToday": 217,
+          "stars": 11968,
+          "forks": 3652,
+          "starsToday": 200,
           "rank": 8
         },
         {
@@ -121,9 +121,9 @@
           "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
           "language": "HTML",
           "languageColor": "#e34c26",
-          "stars": 69404,
-          "forks": 4657,
-          "starsToday": 636,
+          "stars": 69888,
+          "forks": 4688,
+          "starsToday": 583,
           "rank": 9
         },
         {
@@ -134,9 +134,9 @@
           "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
           "language": "Python",
           "languageColor": "#3572A5",
-          "stars": 71556,
-          "forks": 6342,
-          "starsToday": 681,
+          "stars": 72133,
+          "forks": 6387,
+          "starsToday": 560,
           "rank": 10
         },
         {
@@ -147,9 +147,9 @@
           "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
           "language": "TypeScript",
           "languageColor": "#3178c6",
-          "stars": 11109,
-          "forks": 1413,
-          "starsToday": 315,
+          "stars": 11540,
+          "forks": 1447,
+          "starsToday": 326,
           "rank": 11
         },
         {
@@ -157,12 +157,12 @@
           "owner": "mjmirza",
           "name": "app-store-compliance",
           "url": "https://github.com/mjmirza/app-store-compliance",
-          "description": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 117 documented rejection patterns and fixes, privacy manifest and Data safety checks, 95 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
+          "description": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 124 documented rejection patterns and fixes, privacy manifest and Data safety checks, 111 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
           "language": "Shell",
           "languageColor": "#89e051",
-          "stars": 2883,
-          "forks": 183,
-          "starsToday": 869,
+          "stars": 3508,
+          "forks": 215,
+          "starsToday": 720,
           "rank": 12
         },
         {
@@ -173,9 +173,9 @@
           "description": "The open-source agent for CI/CD reliability.",
           "language": "Python",
           "languageColor": "#3572A5",
-          "stars": 13697,
-          "forks": 1928,
-          "starsToday": 466,
+          "stars": 14066,
+          "forks": 1944,
+          "starsToday": 450,
           "rank": 13
         },
         {
@@ -186,9 +186,9 @@
           "description": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.",
           "language": "TypeScript",
           "languageColor": "#3178c6",
-          "stars": 75906,
-          "forks": 5582,
-          "starsToday": 676,
+          "stars": 76392,
+          "forks": 5597,
+          "starsToday": 574,
           "rank": 14
         },
         {
@@ -199,9 +199,9 @@
           "description": "The only downloader you need. 下载器的集大成者。",
           "language": "Python",
           "languageColor": "#3572A5",
-          "stars": 13888,
-          "forks": 849,
-          "starsToday": 1082,
+          "stars": 14577,
+          "forks": 880,
+          "starsToday": 779,
           "rank": 15
         },
         {
@@ -212,9 +212,9 @@
           "description": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping & content repurposing.",
           "language": "Python",
           "languageColor": "#3572A5",
-          "stars": 12324,
-          "forks": 2026,
-          "starsToday": 979,
+          "stars": 12965,
+          "forks": 2081,
+          "starsToday": 683,
           "rank": 16
         }
       ]
@@ -233,9 +233,9 @@
           "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
           "language": "Python",
           "languageColor": "#3572A5",
-          "stars": 14617,
-          "forks": 1722,
-          "starsToday": 1622,
+          "stars": 16324,
+          "forks": 1847,
+          "starsToday": 1803,
           "rank": 1
         },
         {
@@ -246,9 +246,9 @@
           "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
           "language": "Python",
           "languageColor": "#3572A5",
-          "stars": 61529,
-          "forks": 5582,
-          "starsToday": 773,
+          "stars": 62187,
+          "forks": 5641,
+          "starsToday": 769,
           "rank": 2
         },
         {
@@ -259,9 +259,9 @@
           "description": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
           "language": "Python",
           "languageColor": "#3572A5",
-          "stars": 67790,
-          "forks": 8863,
-          "starsToday": 847,
+          "stars": 68238,
+          "forks": 8922,
+          "starsToday": 488,
           "rank": 3
         },
         {
@@ -272,9 +272,9 @@
           "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
           "language": "Python",
           "languageColor": "#3572A5",
-          "stars": 71556,
-          "forks": 6342,
-          "starsToday": 681,
+          "stars": 72133,
+          "forks": 6387,
+          "starsToday": 560,
           "rank": 4
         },
         {
@@ -285,9 +285,9 @@
           "description": "The open-source agent for CI/CD reliability.",
           "language": "Python",
           "languageColor": "#3572A5",
-          "stars": 13697,
-          "forks": 1928,
-          "starsToday": 466,
+          "stars": 14066,
+          "forks": 1944,
+          "starsToday": 450,
           "rank": 5
         },
         {
@@ -298,9 +298,9 @@
           "description": "The only downloader you need. 下载器的集大成者。",
           "language": "Python",
           "languageColor": "#3572A5",
-          "stars": 13888,
-          "forks": 849,
-          "starsToday": 1082,
+          "stars": 14577,
+          "forks": 880,
+          "starsToday": 779,
           "rank": 6
         },
         {
@@ -311,9 +311,9 @@
           "description": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping & content repurposing.",
           "language": "Python",
           "languageColor": "#3572A5",
-          "stars": 12325,
-          "forks": 2026,
-          "starsToday": 979,
+          "stars": 12965,
+          "forks": 2082,
+          "starsToday": 683,
           "rank": 7
         },
         {
@@ -324,9 +324,9 @@
           "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
           "language": "Python",
           "languageColor": "#3572A5",
-          "stars": 57904,
-          "forks": 4415,
-          "starsToday": 146,
+          "stars": 58015,
+          "forks": 4424,
+          "starsToday": 99,
           "rank": 8
         },
         {
@@ -337,9 +337,9 @@
           "description": "Plugins, agents, skills, and commands for Claude Code, Codex CLI, Cursor, OpenCode, Antigravity CLI, GitHub Copilot, and Pi, written once in Markdown and adapted to each tool by generators with validation and evals.",
           "language": "Python",
           "languageColor": "#3572A5",
-          "stars": 42750,
-          "forks": 4518,
-          "starsToday": 41,
+          "stars": 42781,
+          "forks": 4521,
+          "starsToday": 39,
           "rank": 9
         },
         {
@@ -350,9 +350,9 @@
           "description": "Apache Airflow - A platform to programmatically author, schedule, and monitor workflows",
           "language": "Python",
           "languageColor": "#3572A5",
-          "stars": 47583,
-          "forks": 18360,
-          "starsToday": 30,
+          "stars": 47589,
+          "forks": 18366,
+          "starsToday": 16,
           "rank": 10
         },
         {
@@ -363,9 +363,9 @@
           "description": "Python tool for converting files and office documents to Markdown.",
           "language": "Python",
           "languageColor": "#3572A5",
-          "stars": 197284,
-          "forks": 14927,
-          "starsToday": 281,
+          "stars": 197630,
+          "forks": 14958,
+          "starsToday": 182,
           "rank": 11
         },
         {
@@ -376,9 +376,9 @@
           "description": "The 100 line AI agent that solves GitHub issues or helps you in your command line. Radically simple, no huge configs, no giant monorepo—but scores >74% on SWE-bench verified!",
           "language": "Python",
           "languageColor": "#3572A5",
-          "stars": 9909,
-          "forks": 1360,
-          "starsToday": 66,
+          "stars": 9944,
+          "forks": 1363,
+          "starsToday": 37,
           "rank": 12
         },
         {
@@ -389,9 +389,9 @@
           "description": "A PyTorch native platform for training generative AI models",
           "language": "Python",
           "languageColor": "#3572A5",
-          "stars": 5934,
-          "forks": 1092,
-          "starsToday": 4,
+          "stars": 5940,
+          "forks": 1096,
+          "starsToday": 9,
           "rank": 13
         },
         {
@@ -402,9 +402,9 @@
           "description": "Multi-agent orchestration for AI coding CLIs — Claude Code, Kiro, Codex, and more, coordinated in isolated tmux sessions",
           "language": "Python",
           "languageColor": "#3572A5",
-          "stars": 1614,
-          "forks": 341,
-          "starsToday": 11,
+          "stars": 1622,
+          "forks": 343,
+          "starsToday": 14,
           "rank": 14
         },
         {
@@ -416,8 +416,8 @@
           "language": "Python",
           "languageColor": "#3572A5",
           "stars": 3128,
-          "forks": 2794,
-          "starsToday": 7,
+          "forks": 2800,
+          "starsToday": 3,
           "rank": 15
         },
         {
@@ -428,9 +428,9 @@
           "description": "Make videos on the computer you already own. FreeVideo runs MiniMax H3 in as little as 8 GB of VRAM and 16 GB of RAM, and adapts its acceleration path to your hardware.",
           "language": "Python",
           "languageColor": "#3572A5",
-          "stars": 3899,
-          "forks": 541,
-          "starsToday": 293,
+          "stars": 4177,
+          "forks": 594,
+          "starsToday": 428,
           "rank": 16
         },
         {
@@ -441,9 +441,9 @@
           "description": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
           "language": "Python",
           "languageColor": "#3572A5",
-          "stars": 8661,
-          "forks": 851,
-          "starsToday": 100,
+          "stars": 8717,
+          "forks": 859,
+          "starsToday": 121,
           "rank": 17
         },
         {
@@ -454,9 +454,9 @@
           "description": "Training-free language model modification: Remove censorship, suppress slop, reduce sycophancy, and more",
           "language": "Python",
           "languageColor": "#3572A5",
-          "stars": 42388,
-          "forks": 5261,
-          "starsToday": 184,
+          "stars": 42516,
+          "forks": 5286,
+          "starsToday": 144,
           "rank": 18
         },
         {
@@ -467,9 +467,9 @@
           "description": "💫 Toolkit to help you get started with SDD or any other process!",
           "language": "Python",
           "languageColor": "#3572A5",
-          "stars": 150854,
-          "forks": 13549,
-          "starsToday": 166,
+          "stars": 150956,
+          "forks": 13558,
+          "starsToday": 126,
           "rank": 19
         },
         {
@@ -480,9 +480,9 @@
           "description": "let your agent control your phone",
           "language": "Python",
           "languageColor": "#3572A5",
-          "stars": 5395,
-          "forks": 561,
-          "starsToday": 198,
+          "stars": 5464,
+          "forks": 567,
+          "starsToday": 125,
           "rank": 20
         },
         {
@@ -493,9 +493,9 @@
           "description": "Odoo. Open Source Apps To Grow Your Business.",
           "language": "Python",
           "languageColor": "#3572A5",
-          "stars": 56000,
-          "forks": 34383,
-          "starsToday": 53,
+          "stars": 56013,
+          "forks": 34389,
+          "starsToday": 24,
           "rank": 21
         },
         {
@@ -506,9 +506,9 @@
           "description": "Build and run agents you can see, understand and trust.",
           "language": "Python",
           "languageColor": "#3572A5",
-          "stars": 36400,
-          "forks": 3895,
-          "starsToday": 69,
+          "stars": 36444,
+          "forks": 3898,
+          "starsToday": 60,
           "rank": 22
         },
         {
@@ -519,9 +519,9 @@
           "description": "PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
           "language": "Python",
           "languageColor": "#3572A5",
-          "stars": 5486,
-          "forks": 687,
-          "starsToday": 454,
+          "stars": 5768,
+          "forks": 730,
+          "starsToday": 310,
           "rank": 23
         }
       ]
@@ -540,9 +540,9 @@
           "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
           "language": "JavaScript",
           "languageColor": "#f1e05a",
-          "stars": 307942,
-          "forks": 45320,
-          "starsToday": 649,
+          "stars": 308465,
+          "forks": 45391,
+          "starsToday": 583,
           "rank": 1
         },
         {
@@ -553,9 +553,9 @@
           "description": "web development for the rest of us",
           "language": "JavaScript",
           "languageColor": "#f1e05a",
-          "stars": 89840,
-          "forks": 6132,
-          "starsToday": 104,
+          "stars": 89835,
+          "forks": 6131,
+          "starsToday": 19,
           "rank": 2
         },
         {
@@ -566,9 +566,9 @@
           "description": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
           "language": "JavaScript",
           "languageColor": "#f1e05a",
-          "stars": 10379,
-          "forks": 1302,
-          "starsToday": 10,
+          "stars": 10385,
+          "forks": 1304,
+          "starsToday": 6,
           "rank": 3
         },
         {
@@ -579,9 +579,9 @@
           "description": "Vercel's official collection of agent skills",
           "language": "JavaScript",
           "languageColor": "#f1e05a",
-          "stars": 34623,
-          "forks": 3011,
-          "starsToday": 71,
+          "stars": 34680,
+          "forks": 3021,
+          "starsToday": 60,
           "rank": 4
         },
         {
@@ -592,9 +592,9 @@
           "description": "Antigravity, Claude Code, Codex, Copilot, DeepSeek Harness, Gemini, Grok Build, Kimi Code, MiniMax Code, Muse, OMP, OpenCode, Pi, Prime Agent, etc versions of Poteto's pstack. Rigorous agent workflows with Cursor primitives translated for other harnesses.",
           "language": "JavaScript",
           "languageColor": "#f1e05a",
-          "stars": 4631,
-          "forks": 429,
-          "starsToday": 48,
+          "stars": 4678,
+          "forks": 431,
+          "starsToday": 46,
           "rank": 5
         },
         {
@@ -605,9 +605,9 @@
           "description": "Blazing fast and accurate glob matcher written JavaScript, with no dependencies and full support for standard and extended Bash glob features, including braces, extglobs, POSIX brackets, and regular expressions. Used by GraphQL, Jest, Astro, Snowpack, Storybook, bulma, Serverless, fdir, Netlify, AWS Amplify, Revogrid, rollup, routify, open-wc, i…",
           "language": "JavaScript",
           "languageColor": "#f1e05a",
-          "stars": 1332,
-          "forks": 212,
-          "starsToday": 0,
+          "stars": 1333,
+          "forks": 213,
+          "starsToday": 1,
           "rank": 6
         },
         {
@@ -618,9 +618,9 @@
           "description": "WorkBuddy、CodeBuddy 桌面端增强助手：签到猫猫旅行成长计划查询、多账号独立备份、点切即用；免打扰模式让 AI 无人值守跑长任务；跨账号会话迁移、异常中断自动续接；暂存/快捷提示词；毛玻璃主题与更多实用功能。",
           "language": "JavaScript",
           "languageColor": "#f1e05a",
-          "stars": 3314,
-          "forks": 361,
-          "starsToday": 31,
+          "stars": 3336,
+          "forks": 366,
+          "starsToday": 28,
           "rank": 7
         },
         {
@@ -631,9 +631,9 @@
           "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
           "language": "JavaScript",
           "languageColor": "#f1e05a",
-          "stars": 195750,
-          "forks": 11022,
-          "starsToday": 743,
+          "stars": 196465,
+          "forks": 11073,
+          "starsToday": 780,
           "rank": 8
         },
         {
@@ -644,9 +644,9 @@
           "description": "Use Codex from Claude Code to review code or delegate tasks.",
           "language": "JavaScript",
           "languageColor": "#f1e05a",
-          "stars": 35315,
-          "forks": 2455,
-          "starsToday": 24,
+          "stars": 35340,
+          "forks": 2460,
+          "starsToday": 17,
           "rank": 9
         },
         {
@@ -657,9 +657,9 @@
           "description": "Open source previs software in the browser: block a scene, pose characters, author camera moves and cuts, then take the same shots to an AI video model.",
           "language": "JavaScript",
           "languageColor": "#f1e05a",
-          "stars": 2022,
-          "forks": 203,
-          "starsToday": 5,
+          "stars": 2068,
+          "forks": 209,
+          "starsToday": 43,
           "rank": 10
         },
         {
@@ -670,9 +670,9 @@
           "description": "jQuery JavaScript Library",
           "language": "JavaScript",
           "languageColor": "#f1e05a",
-          "stars": 60108,
-          "forks": 20638,
-          "starsToday": 0,
+          "stars": 60130,
+          "forks": 20640,
+          "starsToday": 6,
           "rank": 11
         }
       ]
@@ -691,9 +691,9 @@
           "description": "Cursor plugin specification and official plugins",
           "language": "TypeScript",
           "languageColor": "#3178c6",
-          "stars": 17900,
-          "forks": 1961,
-          "starsToday": 299,
+          "stars": 18157,
+          "forks": 1982,
+          "starsToday": 260,
           "rank": 1
         },
         {
@@ -704,9 +704,9 @@
           "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
           "language": "TypeScript",
           "languageColor": "#3178c6",
-          "stars": 205474,
-          "forks": 10745,
-          "starsToday": 1241,
+          "stars": 206368,
+          "forks": 10790,
+          "starsToday": 1006,
           "rank": 2
         },
         {
@@ -717,9 +717,9 @@
           "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
           "language": "TypeScript",
           "languageColor": "#3178c6",
-          "stars": 11109,
-          "forks": 1413,
-          "starsToday": 315,
+          "stars": 11540,
+          "forks": 1447,
+          "starsToday": 326,
           "rank": 3
         },
         {
@@ -730,9 +730,9 @@
           "description": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.",
           "language": "TypeScript",
           "languageColor": "#3178c6",
-          "stars": 75906,
-          "forks": 5582,
-          "starsToday": 676,
+          "stars": 76392,
+          "forks": 5597,
+          "starsToday": 574,
           "rank": 4
         },
         {
@@ -743,9 +743,9 @@
           "description": "Bend 2: a fast language that blocks AI mistakes via proof. Install: curl -fsSL https://bend-lang.com/install.sh | sh",
           "language": "TypeScript",
           "languageColor": "#3178c6",
-          "stars": 25704,
-          "forks": 820,
-          "starsToday": 95,
+          "stars": 25739,
+          "forks": 823,
+          "starsToday": 51,
           "rank": 5
         },
         {
@@ -756,9 +756,9 @@
           "description": "The open-source cloud for agents & devs. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime, WAF and more",
           "language": "TypeScript",
           "languageColor": "#3178c6",
-          "stars": 58457,
-          "forks": 5910,
-          "starsToday": 44,
+          "stars": 58516,
+          "forks": 5916,
+          "starsToday": 51,
           "rank": 6
         },
         {
@@ -769,9 +769,9 @@
           "description": "Mastra is the modern TypeScript framework for AI-powered applications and agents.",
           "language": "TypeScript",
           "languageColor": "#3178c6",
-          "stars": 29706,
-          "forks": 3126,
-          "starsToday": 50,
+          "stars": 29725,
+          "forks": 3130,
+          "starsToday": 30,
           "rank": 7
         },
         {
@@ -782,9 +782,9 @@
           "description": "AI-native note-taking app & Evernote/Obsidian alternative. Instant all-platform sync, rich notes (tables, mind maps, diagrams, posters), web clipper & MCP. 100% free on Cloudflare or Docker.",
           "language": "TypeScript",
           "languageColor": "#3178c6",
-          "stars": 3465,
-          "forks": 1800,
-          "starsToday": 28,
+          "stars": 3479,
+          "forks": 1812,
+          "starsToday": 14,
           "rank": 8
         },
         {
@@ -795,9 +795,9 @@
           "description": "The open alternative to Salesforce, designed for AI.",
           "language": "TypeScript",
           "languageColor": "#3178c6",
-          "stars": 61273,
-          "forks": 10139,
-          "starsToday": 60,
+          "stars": 61305,
+          "forks": 10146,
+          "starsToday": 38,
           "rank": 9
         },
         {
@@ -808,9 +808,9 @@
           "description": "Email for professionals and teams",
           "language": "TypeScript",
           "languageColor": "#3178c6",
-          "stars": 7377,
-          "forks": 1290,
-          "starsToday": 135,
+          "stars": 7425,
+          "forks": 1303,
+          "starsToday": 55,
           "rank": 10
         },
         {
@@ -821,9 +821,9 @@
           "description": "Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, CoPilot, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
           "language": "TypeScript",
           "languageColor": "#3178c6",
-          "stars": 78271,
-          "forks": 5204,
-          "starsToday": 151,
+          "stars": 78344,
+          "forks": 5212,
+          "starsToday": 86,
           "rank": 11
         },
         {
@@ -834,9 +834,9 @@
           "description": "WebGL2 powered visualization framework",
           "language": "TypeScript",
           "languageColor": "#3178c6",
-          "stars": 14788,
-          "forks": 2307,
-          "starsToday": 11,
+          "stars": 14796,
+          "forks": 2308,
+          "starsToday": 10,
           "rank": 12
         },
         {
@@ -847,9 +847,9 @@
           "description": "Spec-driven development (SDD) for AI coding assistants.",
           "language": "TypeScript",
           "languageColor": "#3178c6",
-          "stars": 75364,
-          "forks": 5149,
-          "starsToday": 79,
+          "stars": 75431,
+          "forks": 5154,
+          "starsToday": 89,
           "rank": 13
         },
         {
@@ -860,9 +860,9 @@
           "description": "A declarative, efficient, and flexible JavaScript library for building user interfaces.",
           "language": "TypeScript",
           "languageColor": "#3178c6",
-          "stars": 36887,
-          "forks": 1204,
-          "starsToday": 109,
+          "stars": 36906,
+          "forks": 1206,
+          "starsToday": 30,
           "rank": 14
         },
         {
@@ -873,9 +873,9 @@
           "description": "⭐️⭐️⭐️ Open-source, self-hosted alternative to Linear and Plane. Project management and issue tracking where teams and AI agents work side by side to plan and ship products.",
           "language": "TypeScript",
           "languageColor": "#3178c6",
-          "stars": 2450,
-          "forks": 323,
-          "starsToday": 24,
+          "stars": 2476,
+          "forks": 328,
+          "starsToday": 36,
           "rank": 15
         },
         {
@@ -886,9 +886,9 @@
           "description": "The open source coding agent.",
           "language": "TypeScript",
           "languageColor": "#3178c6",
-          "stars": 228275,
-          "forks": 31001,
-          "starsToday": 247,
+          "stars": 228450,
+          "forks": 31044,
+          "starsToday": 204,
           "rank": 16
         },
         {
@@ -899,9 +899,9 @@
           "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
           "language": "TypeScript",
           "languageColor": "#3178c6",
-          "stars": 123096,
-          "forks": 15872,
-          "starsToday": 165,
+          "stars": 123219,
+          "forks": 15894,
+          "starsToday": 129,
           "rank": 17
         }
       ]
@@ -920,9 +920,9 @@
           "description": "OLake Go: open-source replication from databases, Kafka and S3 to Apache Iceberg and Parquet. Sources: Postgres, MySQL, MongoDB, Oracle, MSSQL, DB2, Kafka, S3. Formerly datazip-inc/olake. Table maintenance lives in datazip-inc/olake-fusion.",
           "language": "Go",
           "languageColor": "#00ADD8",
-          "stars": 2140,
-          "forks": 320,
-          "starsToday": 62,
+          "stars": 2205,
+          "forks": 325,
+          "starsToday": 93,
           "rank": 1
         },
         {
@@ -933,9 +933,9 @@
           "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
           "language": "Go",
           "languageColor": "#00ADD8",
-          "stars": 34704,
-          "forks": 5527,
-          "starsToday": 72,
+          "stars": 34757,
+          "forks": 5542,
+          "starsToday": 60,
           "rank": 2
         },
         {
@@ -946,9 +946,9 @@
           "description": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
           "language": "Go",
           "languageColor": "#00ADD8",
-          "stars": 5328,
-          "forks": 734,
-          "starsToday": 1216,
+          "stars": 5547,
+          "forks": 773,
+          "starsToday": 228,
           "rank": 3
         },
         {
@@ -959,9 +959,9 @@
           "description": "Agent Substrate: the core system",
           "language": "Go",
           "languageColor": "#00ADD8",
-          "stars": 8039,
-          "forks": 882,
-          "starsToday": 224,
+          "stars": 8104,
+          "forks": 890,
+          "starsToday": 87,
           "rank": 4
         },
         {
@@ -972,9 +972,9 @@
           "description": "Modern Docker Management, Designed for Everyone",
           "language": "Go",
           "languageColor": "#00ADD8",
-          "stars": 10201,
-          "forks": 577,
-          "starsToday": 90,
+          "stars": 10264,
+          "forks": 578,
+          "starsToday": 68,
           "rank": 5
         },
         {
@@ -985,9 +985,9 @@
           "description": "Make humans and AI agents work as one team — open-source and self-hostable.",
           "language": "Go",
           "languageColor": "#00ADD8",
-          "stars": 56968,
-          "forks": 7499,
-          "starsToday": 173,
+          "stars": 57071,
+          "forks": 7516,
+          "starsToday": 127,
           "rank": 6
         },
         {
@@ -998,9 +998,9 @@
           "description": "Secure, Fast, and Extensible Sandbox runtime for AI agents.",
           "language": "Go",
           "languageColor": "#00ADD8",
-          "stars": 17741,
-          "forks": 1709,
-          "starsToday": 72,
+          "stars": 17776,
+          "forks": 1712,
+          "starsToday": 44,
           "rank": 7
         },
         {
@@ -1011,9 +1011,9 @@
           "description": "High-Performance server for NATS.io, the cloud and edge native messaging system.",
           "language": "Go",
           "languageColor": "#00ADD8",
-          "stars": 21088,
-          "forks": 2051,
-          "starsToday": 13,
+          "stars": 21101,
+          "forks": 2053,
+          "starsToday": 18,
           "rank": 8
         },
         {
@@ -1024,9 +1024,9 @@
           "description": "Beads - A memory upgrade for your coding agent",
           "language": "Go",
           "languageColor": "#00ADD8",
-          "stars": 28879,
-          "forks": 1949,
-          "starsToday": 17,
+          "stars": 28899,
+          "forks": 1950,
+          "starsToday": 29,
           "rank": 9
         },
         {
@@ -1037,9 +1037,9 @@
           "description": "Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents.",
           "language": "Go",
           "languageColor": "#00ADD8",
-          "stars": 13391,
+          "stars": 13392,
           "forks": 1241,
-          "starsToday": 15,
+          "starsToday": 8,
           "rank": 10
         },
         {
@@ -1050,9 +1050,9 @@
           "description": "ScopeSentry-Cyberspace mapping, subdomain enumeration, port scanning, sensitive information discovery, vulnerability scanning, distributed nodes",
           "language": "Go",
           "languageColor": "#00ADD8",
-          "stars": 2587,
-          "forks": 673,
-          "starsToday": 18,
+          "stars": 2610,
+          "forks": 683,
+          "starsToday": 35,
           "rank": 11
         },
         {
@@ -1063,9 +1063,9 @@
           "description": "视频号、小程序、抖音、快手、小红书、直播流、m3u8、酷狗、QQ音乐等常见网络资源下载!",
           "language": "Go",
           "languageColor": "#00ADD8",
-          "stars": 21407,
+          "stars": 21421,
           "forks": 2622,
-          "starsToday": 23,
+          "starsToday": 16,
           "rank": 12
         }
       ]
@@ -1084,9 +1084,9 @@
           "description": "Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.",
           "language": "Rust",
           "languageColor": "#dea584",
-          "stars": 45971,
-          "forks": 3226,
-          "starsToday": 101,
+          "stars": 46003,
+          "forks": 3235,
+          "starsToday": 45,
           "rank": 1
         },
         {
@@ -1097,9 +1097,9 @@
           "description": "Postgres rewritten in Rust, now faster than Postgres and Clickhouse",
           "language": "Rust",
           "languageColor": "#dea584",
-          "stars": 5972,
-          "forks": 243,
-          "starsToday": 28,
+          "stars": 5989,
+          "forks": 244,
+          "starsToday": 17,
           "rank": 2
         },
         {
@@ -1110,9 +1110,9 @@
           "description": "Extremely fast Query Engine for DataFrames, written in Rust",
           "language": "Rust",
           "languageColor": "#dea584",
-          "stars": 40410,
-          "forks": 3252,
-          "starsToday": 17,
+          "stars": 40424,
+          "forks": 3256,
+          "starsToday": 23,
           "rank": 3
         },
         {
@@ -1123,9 +1123,9 @@
           "description": "25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 100+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP。",
           "language": "Rust",
           "languageColor": "#dea584",
-          "stars": 31075,
-          "forks": 2830,
-          "starsToday": 159,
+          "stars": 31108,
+          "forks": 2833,
+          "starsToday": 48,
           "rank": 4
         },
         {
@@ -1136,9 +1136,9 @@
           "description": "Open source, composable payments platform | PCI compliant | SaaS and Self-host options | Enables connectivity to multiple payment, payout, fraud, vault and tokenization providers | Uplifts authorization with intelligent routing and revenue recovery | Reduce payment processing costs with cost observability | Reduces payment ops with reconciliation",
           "language": "Rust",
           "languageColor": "#dea584",
-          "stars": 45859,
-          "forks": 6697,
-          "starsToday": 15,
+          "stars": 45866,
+          "forks": 6696,
+          "starsToday": 7,
           "rank": 5
         },
         {
@@ -1149,9 +1149,9 @@
           "description": "Professional Antigravity Account Manager & Switcher. One-click seamless account switching for Antigravity Tools. Built with Tauri v2 + React (Rust).专业的 Antigravity 账号管理与切换工具。为 Antigravity 提供一键无缝账号切换功能。",
           "language": "Rust",
           "languageColor": "#dea584",
-          "stars": 33509,
-          "forks": 3568,
-          "starsToday": 87,
+          "stars": 33577,
+          "forks": 3573,
+          "starsToday": 86,
           "rank": 6
         },
         {
@@ -1162,9 +1162,9 @@
           "description": "⭐️ A cross-platform CLI All-in-One assistant tool for Claude Code, Codex & Gemini CLI.",
           "language": "Rust",
           "languageColor": "#dea584",
-          "stars": 5548,
+          "stars": 5554,
           "forks": 382,
-          "starsToday": 7,
+          "starsToday": 8,
           "rank": 7
         },
         {
@@ -1175,9 +1175,9 @@
           "description": "⚙️🦀 Build modular and scalable LLM Applications in Rust",
           "language": "Rust",
           "languageColor": "#dea584",
-          "stars": 9207,
+          "stars": 9216,
           "forks": 1030,
-          "starsToday": 15,
+          "starsToday": 12,
           "rank": 8
         },
         {
@@ -1188,9 +1188,9 @@
           "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
           "language": "Rust",
           "languageColor": "#dea584",
-          "stars": 87319,
-          "forks": 5609,
-          "starsToday": 104,
+          "stars": 87434,
+          "forks": 5612,
+          "starsToday": 125,
           "rank": 9
         },
         {
@@ -1201,9 +1201,9 @@
           "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
           "language": "Rust",
           "languageColor": "#dea584",
-          "stars": 130537,
-          "forks": 21014,
-          "starsToday": 250,
+          "stars": 130672,
+          "forks": 21054,
+          "starsToday": 147,
           "rank": 10
         },
         {
@@ -1214,9 +1214,9 @@
           "description": "A data visualization and analytics component, especially well-suited for large and/or streaming datasets.",
           "language": "Rust",
           "languageColor": "#dea584",
-          "stars": 11646,
+          "stars": 11674,
           "forks": 1375,
-          "starsToday": 43,
+          "starsToday": 36,
           "rank": 11
         },
         {
@@ -1227,9 +1227,9 @@
           "description": "Generate any location from the real world in Minecraft with a high level of detail.",
           "language": "Rust",
           "languageColor": "#dea584",
-          "stars": 18760,
+          "stars": 18778,
           "forks": 1590,
-          "starsToday": 27,
+          "starsToday": 14,
           "rank": 12
         },
         {
@@ -1240,9 +1240,9 @@
           "description": "A beautiful, private, local-first personal finance tracker. Investments, net worth, spending, and simulations.",
           "language": "Rust",
           "languageColor": "#dea584",
-          "stars": 9655,
-          "forks": 845,
-          "starsToday": 46,
+          "stars": 9680,
+          "forks": 847,
+          "starsToday": 40,
           "rank": 13
         },
         {
@@ -1253,7 +1253,7 @@
           "description": "A Flash Player emulator written in Rust",
           "language": "Rust",
           "languageColor": "#dea584",
-          "stars": 18901,
+          "stars": 18906,
           "forks": 1201,
           "starsToday": 9,
           "rank": 14
@@ -1274,9 +1274,9 @@
           "description": "JDK main-line development https://openjdk.org/projects/jdk",
           "language": "Java",
           "languageColor": "#b07219",
-          "stars": 23557,
-          "forks": 6557,
-          "starsToday": 10,
+          "stars": 23564,
+          "forks": 6559,
+          "starsToday": 7,
           "rank": 1
         },
         {
@@ -1287,9 +1287,9 @@
           "description": "Open Source Identity and Access Management For Modern Applications and Services",
           "language": "Java",
           "languageColor": "#b07219",
-          "stars": 37990,
-          "forks": 9233,
-          "starsToday": 18,
+          "stars": 37993,
+          "forks": 9234,
+          "starsToday": 15,
           "rank": 2
         },
         {
@@ -1300,9 +1300,9 @@
           "description": "🔎 Open source distributed and RESTful search engine.",
           "language": "Java",
           "languageColor": "#b07219",
-          "stars": 14040,
+          "stars": 14045,
           "forks": 3022,
-          "starsToday": 5,
+          "starsToday": 3,
           "rank": 3
         },
         {
@@ -1313,9 +1313,9 @@
           "description": "Free universal database tool and SQL client",
           "language": "Java",
           "languageColor": "#b07219",
-          "stars": 52500,
+          "stars": 52507,
           "forks": 4465,
-          "starsToday": 15,
+          "starsToday": 7,
           "rank": 4
         },
         {
@@ -1326,9 +1326,9 @@
           "description": "Multi-platform SDK for integrating GitHub Copilot Agent into apps and services",
           "language": "Java",
           "languageColor": "#b07219",
-          "stars": 10699,
+          "stars": 10700,
           "forks": 1535,
-          "starsToday": 3,
+          "starsToday": 4,
           "rank": 5
         },
         {
@@ -1339,9 +1339,9 @@
           "description": "Dependency-Track is an intelligent Component Analysis platform that allows organizations to identify and reduce risk in the software supply chain.",
           "language": "Java",
           "languageColor": "#b07219",
-          "stars": 4493,
-          "forks": 866,
-          "starsToday": 8,
+          "stars": 4498,
+          "forks": 868,
+          "starsToday": 7,
           "rank": 6
         },
         {
@@ -1352,9 +1352,9 @@
           "description": "Disable Player Chat Reporting and make user messages untrackable.",
           "language": "Java",
           "languageColor": "#b07219",
-          "stars": 1186,
-          "forks": 250,
-          "starsToday": 12,
+          "stars": 1206,
+          "forks": 260,
+          "starsToday": 29,
           "rank": 7
         },
         {
@@ -1365,9 +1365,9 @@
           "description": "Dual pane Android file manager with focus on APKs",
           "language": "Java",
           "languageColor": "#b07219",
-          "stars": 607,
-          "forks": 90,
-          "starsToday": 7,
+          "stars": 642,
+          "forks": 91,
+          "starsToday": 8,
           "rank": 8
         },
         {
@@ -1379,8 +1379,8 @@
           "language": "Java",
           "languageColor": "#b07219",
           "stars": 2123,
-          "forks": 575,
-          "starsToday": 2,
+          "forks": 577,
+          "starsToday": 0,
           "rank": 9
         },
         {
@@ -1391,9 +1391,9 @@
           "description": "APM, Application Performance Monitoring System",
           "language": "Java",
           "languageColor": "#b07219",
-          "stars": 25017,
-          "forks": 6629,
-          "starsToday": 3,
+          "stars": 25018,
+          "forks": 6630,
+          "starsToday": 1,
           "rank": 10
         },
         {
@@ -1417,9 +1417,9 @@
           "description": "LangChain4j is an idiomatic, open-source Java library for building LLM-powered applications on the JVM. It offers a unified API over popular LLM providers and vector stores, and makes implementing tool calling (including MCP support), agents and RAG easy. It integrates seamlessly with enterprise Java frameworks like Quarkus and Spring Boot.",
           "language": "Java",
           "languageColor": "#b07219",
-          "stars": 13427,
-          "forks": 2689,
-          "starsToday": 4,
+          "stars": 13431,
+          "forks": 2695,
+          "starsToday": 2,
           "rank": 12
         },
         {
@@ -1430,9 +1430,9 @@
           "description": "SeaTunnel is a multimodal, high-performance, distributed, massive data integration tool.",
           "language": "Java",
           "languageColor": "#b07219",
-          "stars": 9821,
-          "forks": 2474,
-          "starsToday": 4,
+          "stars": 9823,
+          "forks": 2476,
+          "starsToday": 3,
           "rank": 13
         },
         {
@@ -1443,9 +1443,9 @@
           "description": "The world's fastest open query engine for sub-second analytics both on and off the data lakehouse. With the flexibility to support nearly any scenario, StarRocks provides best-in-class performance for multi-dimensional analytics, real-time analytics, and ad-hoc queries. A Linux Foundation project.",
           "language": "Java",
           "languageColor": "#b07219",
-          "stars": 12276,
-          "forks": 2686,
-          "starsToday": 4,
+          "stars": 12278,
+          "forks": 2689,
+          "starsToday": 6,
           "rank": 14
         },
         {
@@ -1457,8 +1457,8 @@
           "language": "Java",
           "languageColor": "#b07219",
           "stars": 6331,
-          "forks": 3011,
-          "starsToday": 0,
+          "forks": 3013,
+          "starsToday": 3,
           "rank": 15
         },
         {
@@ -1469,9 +1469,9 @@
           "description": "Orchestrate everything, everywhere. The open-source control plane for workflows across data, infrastructure, business processes and AI agents. Declarative YAML, event-driven, any language, Git-versioned, scalable to millions of executions.",
           "language": "Java",
           "languageColor": "#b07219",
-          "stars": 30300,
-          "forks": 3546,
-          "starsToday": 9,
+          "stars": 30306,
+          "forks": 3548,
+          "starsToday": 13,
           "rank": 16
         },
         {
@@ -1482,8 +1482,8 @@
           "description": "Apache Fineract",
           "language": "Java",
           "languageColor": "#b07219",
-          "stars": 2637,
-          "forks": 2996,
+          "stars": 2639,
+          "forks": 3002,
           "starsToday": 2,
           "rank": 17
         },
